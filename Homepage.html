@@ -2,11 +2,39 @@
 <html lang="en">
 
 	<head>
+		<meta charset="utf-8">
+		<title>My Profile</title>
+		<link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+		<meta name="viewport" content="width=device-width; initial-scaale=1; maximum-scale=1">
+		<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" >
+	</head>
+<body> 
+	<nav>
+		<div class="toggle">
+		<i class="fa fa-bars menu" aria-hidden="true"></i>
+	</div>
+		<ul>
+			
+			<li><a href="#"> Home</a></li>
+			<li><a href="#"> About</a></li>
+			<li><a href="#"> Skills</a></li>
+			<li><a href="#"> Hobbies</a></li>
+			<li><a href="#"> Contact</a></li>
+		</ul>
+	</nav>
+	<script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+	<script type="text/javascript">
+        $(document) .ready(function() {
+        	$('.menu') .click(function(){
+        		$('ul').toggleClass('active');
+
+        	})
+        })
+	</script>
 
 
 
-
-
-
+</body>
+</html>
 		
 	</head>
