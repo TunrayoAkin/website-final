@@ -1,0 +1,150 @@
+/* GLOBAL AND MOBILE STYLES FIRST */
+
+body {
+  margin:0;
+  padding: 0;
+  background: white;
+  color: black;
+  text-align: center;
+  font-family: 'PT Sans', Arial, Verdana; 
+}
+
+header {
+  background: white;
+  color: black;
+}
+nav {
+  background: white;
+  display: none;
+}
+nav li {
+  padding: 1em;
+  display: block;
+  color: red;
+  line-height: 3em;
+  width: inherit;
+}
+a {
+  color: black;
+}
+#menu {
+  background: white;
+  display: block;
+  color: black;
+  font-family: 'PT Sans', Arial, Verdana;
+  font-size: 1.5em;
+  text-decoration: none;
+  margin: 0pc 0px -38px 10px;
+  position: center;
+}
+.show-menu {
+  display: block;
+  background: white;
+}
+h1 {
+  font-size: 1.5em;
+  margin: 0;
+  padding: 1em;
+  background: white;
+  color: black;
+}
+main {
+ width: 90%;
+margin: 0 auto;
+background: white;
+}
+
+
+.nav {
+  list-style-type:none;
+  display:flex;
+  flex-wrap: nowrap;
+  width:100%;
+  background:white;
+
+}
+.navItem, .navItem a {
+  display:inline-block;
+  flex-grow: 0;
+}
+.navItem a {
+  width:100%;
+  padding-top:30px;
+  padding-bottom:30px;
+  color:black;
+  text-decoration:none;
+  text-align:center;
+  text-shadow: 0;
+  font-weight:600;
+  font-size:18px;
+
+
+}
+.navItem:nth-of-type(1) {
+  border-bottom:2px solid #D60F3A;
+  margin: 1em;
+}
+.navItem:nth-of-type(1) a:hover {
+  background: #ff6666;
+}
+.navItem:nth-of-type(2) {
+  border-bottom:2px solid #8317AD;
+  margin: 1em;
+}
+.navItem:nth-of-type(2) a:hover {
+  background:#ff00ff;
+}
+.navItem:nth-of-type(3) {
+  border-bottom:2px solid #3116DE;
+  margin: 1em;
+}
+.navItem:nth-of-type(3) a:hover {
+  background:#8080ff;
+}
+.navItem:nth-of-type(4) {
+  border-bottom:2px solid #0E8FC2;
+  margin: 1em;
+}
+.navItem:nth-of-type(4) a:hover {
+  background:#66c2ff;
+}
+.navItem:nth-of-type(5) {
+  border-bottom:2px solid #0EC23E;
+  margin: 1em;
+}
+.navItem:nth-of-type(5) a:hover {
+  background:#80ff80;
+}
+.navItem:nth-of-type(6) {
+  border-bottom:2px solid #CFCF13;
+  margin: 1em;
+}
+.navItem:nth-of-type(6) a:hover {
+  background: #ffff80;
+
+}
+
+.navItem:nth-of-type{
+  position: center;
+  margin: 1em;
+} 
+/* END OF MOBILE STYLE */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
