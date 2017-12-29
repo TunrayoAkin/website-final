@@ -1,4 +1,7 @@
+html,
+body {
 
+}
 
 .section {
   width: 100%;
@@ -879,7 +882,7 @@ ul.social-icons {
 
 @media all and (min-width: 1000px) {
   .footer-social-icons {
-   padding: 0px 0px 0px 130px;
+   padding: 0px 0px 0px 500px;
    
 }
 }
