@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Tunrayo's Profile</title>
+    <link rel="shortcut icon" type="image/png" href="img/icon.png" />
+    <link rel="stylesheet" href="css/styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="css/game.css">
+</head>
+
+
+<body>
+
+    <header>
+        <!---Nav bar-->
+        <div class="hold">
+            <div class="header">
+                <div class="container1">
+                    <div id="logo">
+                    </div>
+                    <ul class="nav">
+                        <li class="omepage"><a href="index.html">Homepage</a></li>
+                        <li><a href="skills.html">Skills</a></li>
+                        <li><a href="">More</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </header>
+
+    <div id="page-1" class="page">
+        <h1>Higher or Lower Game</h1>
+        <button data-limit="10">EASY</button>
+        <button data-limit="100">NORMAL</button>
+        <button data-limit="1000">HARD</button>
+    </div>
+
+    <div id="page-2" class="page">
+        <p class="used">Numbers Used:
+            <br><span></span></p>
+        <p class="tries">Tries: <span>0</span></p>
+        <h2>Guess the number between 0 and <span></span></h2>
+        <p class="response"></p>
+        <input type="number" class="input" name="input">
+        <button>Try</button>
+    </div>
+
+    <div id="page-3" class="page">
+        <h2>CONGRATULATIONS!<br><span>YOU WIN!</span></h2>
+        <p>It only took you... <span>0</span> tries! refresh to start again!</p>
+
+
+    </div>
+
+
+
+    <script src="js/game.js"></script>
+
+
+
+
+</body>
+
+</html>

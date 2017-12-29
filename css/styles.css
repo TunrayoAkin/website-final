@@ -119,9 +119,6 @@ h2.hero {
   margin-bottom: 60px;
 }
 
-h3 {
-font-family: Roboto, 'Open Sans', Arial, sans-serif;
-}
 h1.hero:after {
   content: "";
   width: 300px;
@@ -752,6 +749,9 @@ body {
   }
 }
 /* END Keyframes for the initial animation */
+
+
+
 
 
 
