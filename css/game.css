@@ -20,6 +20,12 @@ h1 {
   width: 60%;
   padding: 0px 10px 0px 100px;
 }
+h3{
+
+  font-family: 'Montserrat', sans-serif
+  text-align: center;
+  padding: 0px 0px 30px 0px;
+  }
 
 .hold {
   height: 80px;
@@ -517,7 +523,9 @@ button:focus {
     width: 50%;
   }
 }
-
-
-
 /* end Contact form */
+
+ #map {
+        height: 400px;
+        width: 100%;
+       }
