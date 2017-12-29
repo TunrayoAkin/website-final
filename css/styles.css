@@ -3,6 +3,10 @@ body {
 
 }
 
+p{
+  text-align: center;
+}
+
 .section {
   width: 100%;
 }
@@ -813,8 +817,7 @@ ul {
 .footer-social-icons {
     width: 350px;
     display:block;
-    
-    padding: 0px 0px 0px 100px;
+padding-left: 100px;
 }
 .social-icon {
     color: #fff;
@@ -830,6 +833,7 @@ ul.social-icons {
 .social-icons a {
     color: #fff;
     text-decoration: none;
+    padding-left: 40;
 }
 .fa-facebook {
     padding:10px 14px;
@@ -880,9 +884,16 @@ ul.social-icons {
     background-color: #e25714;
 }
 
+@media all and (min-width: 500px) {
+  .footer-social-icons {
+  align-items: center;
+   
+}
+}
+
 @media all and (min-width: 1000px) {
   .footer-social-icons {
-   padding: 0px 0px 0px 500px;
+   padding: 0px 0px 0px 590px;
    
 }
 }
